@@ -26,3 +26,8 @@ Focado na geração de conteúdo visual a partir de prompts textuais (*Text-to-I
 * **`stablediffusion.ipynb`**: Pipeline local utilizando a biblioteca `diffusers` para carregar e rodar o modelo de código aberto `StableDiffusionXLPipeline` com suporte a aceleração por GPU (CUDA).
 
 ---
+
+###  04 base de agentes
+Esta pasta aborda implementações mais avançadas, focadas na construção de sistemas baseados em agentes cognitivos e arquiteturas de Recuperação Aumentada por Geração (RAG) para expandir o conhecimento do modelo com dados externos.
+* **`ageneRAG.ipynb`**: Desenvolvimento de um agente virtual conversacional especializado utilizando a arquitetura RAG. O script utiliza o framework LangChain, banco de vetores FAISS e embeddings da OpenAI para carregar, indexar e responder perguntas contextualizadas com base em um arquivo PDF local (manual técnico).
+* **`busca_net.ipynb`**: Implementação de um agente inteligente com acesso à internet. Ele integra a API de buscas do DuckDuckGo para realizar pesquisas em tempo real na web, extrair os resultados e usá-los como contexto para o GPT-3.5-turbo responder a perguntas com dados atualizados.
