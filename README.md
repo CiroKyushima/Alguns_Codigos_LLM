@@ -1,4 +1,4 @@
-# Guia Prático de IA: APIs e Modelos Locais
+# Apenas alguns codigos que fiz para estudos
 
 Este repositório reúne implementações simples e diretas em Python (Jupyter Notebooks) para demonstração e testes de diversas ferramentas de Inteligência Artificial. O foco aqui é cobrir desde o consumo de APIs comerciais modernas até a execução local de modelos de NLP e geração de imagens.
 
